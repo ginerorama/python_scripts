@@ -1,5 +1,11 @@
-"""This script is gona make massive blast to remote interent server using sequences stored at
-sequence folder and store the results at output folder"""
+"""This script is gona make massive blastp to remote NCBI server using sequences stored at
+/sequences folder and will store the results at /output folder
+
+Require (Biopython and click)
+
+/sequences and /output folder previously created in the path the script will be runned. All the query fasta file for blastp
+have to be at /sequence.
+"""
 
 
 import os,sys
