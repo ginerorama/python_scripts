@@ -17,7 +17,6 @@ from Bio import SeqIO
 
 
 file = sys.argv[1] 
-frame = sys.argv[2]
 fasta = open(file,"r")
 
 def fasta_count (file):
