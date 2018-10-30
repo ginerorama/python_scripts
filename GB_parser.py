@@ -1,6 +1,9 @@
 # encoding: utf-8
-""" generate a bed and csv files from a GBK or GB format file adding the expression value of your selected genes
-usage: GB_parser [input gbk] [input DEF_genes.csv] """
+""" generate a multifasta file from a GBK or GB format file containing all the CDS proteins. It also generate a txt table 
+containning information about description, locus_tag and protein sequence.
+usage: GB_parser [input gbk]
+Require Biopython
+"""
 
 
 from __future__ import division
